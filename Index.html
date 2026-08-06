@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Yadav | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+
+    <!-- Cinematic Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <h1 class="loader-title">ANIKET YADAV</h1>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- Canvas for Particle Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="logo">ANIKET<span>YADAV</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme"><i class="fa-solid fa-sun"></i></button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content glass">
+            <div class="profile-img-wrapper">
+                <img src="profile.png" alt="Aniket Yadav" class="profile-img">
+            </div>
+            <h1>Aniket Yadav</h1>
+            <p class="tagline">Student & Creative Tech Enthusiast</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn gold-btn">Connect With Me</a>
+                <a href="#projects" class="btn outline-btn">Explore Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="glass card">
+            <p>I am a student driven by technology, creative design, and digital media. Focused on expanding knowledge, building sleek user experiences, and executing ideas with precision.</p>
+        </div>
+    </section>
+
+    <!-- Animated Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="glass card skills-container">
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Web Development</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="--target-width: 85%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>UI/UX Design</span>
+                    <span>75%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="--target-width: 75%;"></div></div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>Video Editing</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill" style="--target-width: 80%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="grid-2">
+            <div class="glass card project-card">
+                <div class="project-img-placeholder"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Personal Portfolio Site</h3>
+                <p>Ultra-premium web layout with dark/light themes, particles, and glassmorphism styling.</p>
+            </div>
+            <div class="glass card project-card">
+                <div class="project-img-placeholder"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>Interactive Web Apps</h3>
+                <p>Experimental web applications highlighting responsive layouts and modern UI elements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Placeholder) -->
+    <section id="gallery" class="section">
+        <h2 class="section-title">Photo <span>Gallery</span></h2>
+        <div class="grid-3">
+            <div class="glass card gallery-item"><i class="fa-regular fa-image"></i> Media 1</div>
+            <div class="glass card gallery-item"><i class="fa-regular fa-image"></i> Media 2</div>
+            <div class="glass card gallery-item"><i class="fa-regular fa-image"></i> Media 3</div>
+        </div>
+    </section>
+
+    <!-- Resume Section (Placeholder) -->
+    <section id="resume" class="section">
+        <h2 class="section-title">My <span>Resume</span></h2>
+        <div class="glass card center-text">
+            <p>Access my complete educational timeline, skill achievements, and background details.</p>
+            <br>
+            <a href="#" class="btn gold-btn"><i class="fa-solid fa-file-pdf"></i> Download CV (Placeholder)</a>
+        </div>
+    </section>
+
+    <!-- Contact & Social Links -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="glass card contact-container">
+            <div class="contact-info">
+                <p><i class="fa-solid fa-phone gold-icon"></i> 8303554747</p>
+                <p><i class="fa-solid fa-envelope gold-icon"></i> ay6799354@gmail.com</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/iket7ani?igsh=MXhqejZhZTZ0a3pueA==" target="_blank" class="social-btn instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/1BmUnTCQtw/" target="_blank" class="social-btn facebook" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.snapchat.com/add/iket.ani?share_id=Euw-Ijzvj8I&locale=en-US" target="_blank" class="social-btn snapchat" aria-label="Snapchat"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="https://wa.me/918303554747" target="_blank" class="social-btn whatsapp" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:ay6799354@gmail.com" class="social-btn email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Aniket Yadav. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
